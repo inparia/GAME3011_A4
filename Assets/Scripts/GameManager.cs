@@ -8,6 +8,13 @@ public enum GameLevel
     NORMAL,
     HARD
 }
+
+public enum PlayerLevel
+{
+    NOVICE,
+    PROFESSIONAL,
+    MENTOR
+}
 public class GameManager : MonoBehaviour
 {
     public GameObject hackingTile;
@@ -21,24 +28,53 @@ public class GameManager : MonoBehaviour
     private string[] hackingCodeGenerator = new string[] { "AG", "ER", "AS", "GF", "FD", "BB" };
     public int turn, firstI, firstJ, secondI, rightAmount, score;
     public TMPro.TextMeshProUGUI endText;
+    public float remainingTime;
+    public PlayerLevel playerLevel;
+    public bool gameStarted;
     // Start is called before the first frame update
     void Start()
     {
+        gameStarted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        checkGamePlay();
-        if(turn == 4)
+        if (gameStarted)
         {
-            endText.gameObject.SetActive(true);
-        }
+            if (remainingTime > 0)
+            {
+                remainingTime -= Time.deltaTime;
+            }
+            else
+            {
+                turn = 4;
+            }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
+            checkGamePlay();
+            if (turn == 4)
+            {
+                endText.gameObject.SetActive(true);
+                gameStarted = false;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
         }
+    }
+    public void noviceLevel()
+    {
+        playerLevel = PlayerLevel.NOVICE;
+    }
+    public void professionalLevel()
+    {
+        playerLevel = PlayerLevel.PROFESSIONAL;
+    }
+    public void mentorLevel()
+    {
+        playerLevel = PlayerLevel.MENTOR;
     }
     public void easyGrid()
     {
@@ -84,8 +120,8 @@ public class GameManager : MonoBehaviour
         score = 0;
         playerAnswer = new string[4];
         hackingAnswer = new string[4];
-
-        for(int i = 0; i < 4; i++)
+        gameStarted = true;
+        for (int i = 0; i < 4; i++)
         {
             int tempNum = Random.Range(0, 6);
             hackingAnswer[i] = hackingCodeGenerator[tempNum];
@@ -95,15 +131,30 @@ public class GameManager : MonoBehaviour
         {
             case GameLevel.EASY:
                 gridSize = 4;
+                remainingTime = 60;
                 break;
             case GameLevel.NORMAL:
                 gridSize = 5;
+                remainingTime = 30;
                 break;
             case GameLevel.HARD:
                 gridSize = 6;
+                remainingTime = 15;
                 break;
         }
         
+        switch(playerLevel)
+        {
+            case PlayerLevel.NOVICE:
+                remainingTime += 5;
+                break;
+            case PlayerLevel.PROFESSIONAL:
+                remainingTime += 10;
+                break;
+            case PlayerLevel.MENTOR:
+                remainingTime += 20;
+                break;
+        }
 
         hackingGrid = new GameObject[gridSize, gridSize];
         hackingCode = new string[gridSize, gridSize];
