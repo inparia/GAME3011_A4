@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: ed0c2c8a99e92e14ba740ac8aa428288
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4916655136459292164
+    second: prototype_512x512_grey4_0
+  - first:
+      213: 8504782885678795828
+    second: prototype_512x512_grey4_1
+  - first:
+      213: 8724432210358362457
+    second: prototype_512x512_grey4_2
+  - first:
+      213: -7064448618588469908
+    second: prototype_512x512_grey4_3
+  - first:
+      213: -546454705893135928
+    second: prototype_512x512_grey4_4
+  - first:
+      213: 2413936363929304552
+    second: prototype_512x512_grey4_5
+  - first:
+      213: 5824535122515537872
+    second: prototype_512x512_grey4_6
+  - first:
+      213: 3966938944402134510
+    second: prototype_512x512_grey4_7
+  - first:
+      213: 6941974128002079071
+    second: prototype_512x512_grey4_8
+  - first:
+      213: 2810887027693247182
+    second: prototype_512x512_grey4_9
+  - first:
+      213: 3796855378169346895
+    second: prototype_512x512_grey4_10
+  - first:
+      213: 7476768969597516365
+    second: prototype_512x512_grey4_11
+  - first:
+      213: -6190570572769777424
+    second: prototype_512x512_grey4_12
+  - first:
+      213: 1314366231665183028
+    second: prototype_512x512_grey4_13
+  - first:
+      213: 8236971203299082069
+    second: prototype_512x512_grey4_14
+  - first:
+      213: 8477005031441831080
+    second: prototype_512x512_grey4_15
+  - first:
+      213: -2878132244625982041
+    second: prototype_512x512_grey4_16
+  - first:
+      213: -7895958941487511033
+    second: prototype_512x512_grey4_17
+  - first:
+      213: 3771141941672326884
+    second: prototype_512x512_grey4_18
+  - first:
+      213: 1676139938253491188
+    second: prototype_512x512_grey4_19
+  - first:
+      213: 8609985310065248088
+    second: prototype_512x512_grey4_20
+  - first:
+      213: 5752686456908177641
+    second: prototype_512x512_grey4_21
+  - first:
+      213: 1754637575025067440
+    second: prototype_512x512_grey4_22
+  - first:
+      213: 5731580934682699699
+    second: prototype_512x512_grey4_23
+  - first:
+      213: -6498465660198623162
+    second: prototype_512x512_grey4_24
+  - first:
+      213: 424906576728942476
+    second: prototype_512x512_grey4_25
+  - first:
+      213: -1944463951076179359
+    second: prototype_512x512_grey4_26
+  - first:
+      213: 477017901314973492
+    second: prototype_512x512_grey4_27
+  - first:
+      213: -571332289560355088
+    second: prototype_512x512_grey4_28
+  - first:
+      213: -4909381588457135234
+    second: prototype_512x512_grey4_29
+  - first:
+      213: 8870180991578384644
+    second: prototype_512x512_grey4_30
+  - first:
+      213: 5602968850652247619
+    second: prototype_512x512_grey4_31
+  - first:
+      213: 4863345600471731998
+    second: prototype_512x512_grey4_32
+  - first:
+      213: 7274249376463231424
+    second: prototype_512x512_grey4_33
+  - first:
+      213: 1112915565848302660
+    second: prototype_512x512_grey4_34
+  - first:
+      213: -5559719010968909150
+    second: prototype_512x512_grey4_35
+  - first:
+      213: 5523500982888638780
+    second: prototype_512x512_grey4_36
+  - first:
+      213: -6997759903232056834
+    second: prototype_512x512_grey4_37
+  - first:
+      213: -8589765224699457264
+    second: prototype_512x512_grey4_38
+  - first:
+      213: 6508445398974575012
+    second: prototype_512x512_grey4_39
+  - first:
+      213: 5740894164412132029
+    second: prototype_512x512_grey4_40
+  - first:
+      213: 7799352533828372266
+    second: prototype_512x512_grey4_41
+  - first:
+      213: -6247657720391955167
+    second: prototype_512x512_grey4_42
+  - first:
+      213: 6784573631408884842
+    second: prototype_512x512_grey4_43
+  - first:
+      213: -2795660722980464551
+    second: prototype_512x512_grey4_44
+  - first:
+      213: -2358812796488132083
+    second: prototype_512x512_grey4_45
+  - first:
+      213: -1475689558481982337
+    second: prototype_512x512_grey4_46
+  - first:
+      213: -7665056953515517525
+    second: prototype_512x512_grey4_47
+  - first:
+      213: -761304565333272035
+    second: prototype_512x512_grey4_48
+  - first:
+      213: -6170355465427133784
+    second: prototype_512x512_grey4_49
+  - first:
+      213: -2797557087370530578
+    second: prototype_512x512_grey4_50
+  - first:
+      213: 5650138373739659572
+    second: prototype_512x512_grey4_51
+  - first:
+      213: 3040712119684886654
+    second: prototype_512x512_grey4_52
+  - first:
+      213: 7643901198866586762
+    second: prototype_512x512_grey4_53
+  - first:
+      213: -5832279127993366175
+    second: prototype_512x512_grey4_54
+  - first:
+      213: -783036200802684580
+    second: prototype_512x512_grey4_55
+  - first:
+      213: -1257849315290565278
+    second: prototype_512x512_grey4_56
+  - first:
+      213: 6713986228190990888
+    second: prototype_512x512_grey4_57
+  - first:
+      213: -3192153570795600209
+    second: prototype_512x512_grey4_58
+  - first:
+      213: 1123444639167830415
+    second: prototype_512x512_grey4_59
+  - first:
+      213: -2289500839056522245
+    second: prototype_512x512_grey4_60
+  - first:
+      213: -3636755662610868732
+    second: prototype_512x512_grey4_61
+  - first:
+      213: -5358360974523806306
+    second: prototype_512x512_grey4_62
+  - first:
+      213: -4321915332063858264
+    second: prototype_512x512_grey4_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prototype_512x512_grey4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf18e34f33884cbb0800000000000000
+      internalID: -4916655136459292164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototype_512x512_grey4_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cc4b869fe070670800000000000000
+      internalID: 8504782885678795828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototype_512x512_grey4_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951e26d0fd8631970800000000000000
+      internalID: 8724432210358362457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prototype_512x512_grey4_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c650903196906fd90800000000000000
+      internalID: -7064448618588469908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f6543545bc75d0247af7bda9df44c7fc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
